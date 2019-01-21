@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello_message">Привет, мир!</string>
-    <string name="ButtonText">I\'m a button!</string>
-    <string name="app_name">I\'m a button!</string>
+    <string name="ButtonText">Я кнопка</string>
+    <string name="EditText">Введите свой ответ здесь</string>
+    <string name="Switch">Включить / Выключить</string>
+    <string name="app_name">Lab 1</string>
+    <string name="Check">Проверь это!</string>
+    <string name="Widgets">Вот мои виджеты</string>
 </resources>
