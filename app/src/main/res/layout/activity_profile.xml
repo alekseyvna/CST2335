@@ -10,7 +10,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/EnterEmail"
+        android:text="@string/Profile"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -20,32 +25,45 @@
 
 
     <EditText
-        android:id="@+id/emailaddress"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:inputType="textEmailAddress"
-        android:hint="@string/EditText" />
+
+        android:hint="@string/EnterName" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Password"
+        android:text="@string/Email"
         android:textSize="20dp"
         />
 
     <EditText
         android:layout_width="match_parent"
+        android:id="@+id/emailaddress"
         android:layout_height="fill_parent"
-        android:inputType="textPassword"
+        android:hint="@string/EnterEmail"
 
         />
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="fill_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Login"/>
+        android:text="@string/Pic"
+        android:textSize="20dp"
+        />
+<ImageButton
+    android:id="@+id/imageb"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/picture_frame"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TakePic"
+        android:textSize="20dp"/>
 
 
 </LinearLayout>
-

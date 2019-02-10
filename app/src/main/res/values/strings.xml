@@ -1,9 +1,19 @@
 <resources>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button!</string>
-    <string name="EditText"> Type your text here </string>
+    <string name="EditText"> Type email here </string>
     <string name="Switch"> Switch On/Off</string>
-    <string name="app_name">I\'m a button!</string>
+    <string name="app_name">Lab 3</string>
     <string name="Check">Check this out!</string>
     <string name="Widgets">Here are my widgets:</string>
+    <string name="EnterEmail">Enter your email:</string>
+    <string name="Password">Type your password</string>
+    <string name="Profile">Your profile</string>
+    <string name="Name">Your name:</string>
+    <string name="EnterName">Enter your name</string>
+    <string name="Email">Your email:</string>
+    <string name="Pic">Your picture:</string>
+    <string name="Login">LOGIN</string>
+    <string name="TakePic">Click the button above to take a picture</string>
+    <string name="Chat">Go to chat</string>
 </resources>

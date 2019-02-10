@@ -2,9 +2,19 @@
 <resources>
     <string name="hello_message">Привет, мир!</string>
     <string name="ButtonText">Я кнопка</string>
-    <string name="EditText">Введите свой ответ здесь</string>
+    <string name="EditText">Введите адрес электронной почты здесь</string>
     <string name="Switch">Включить / Выключить</string>
-    <string name="app_name">Lab 1</string>
+    <string name="app_name">Lab 3</string>
     <string name="Check">Проверь это!</string>
     <string name="Widgets">Вот мои виджеты</string>
+    <string name="EnterEmail">Введите ваш адрес электронной почты</string>
+    <string name="Password">Введите свой пароль</string>
+    <string name="Profile">Твой профиль</string>
+    <string name="Name">Ваше имя</string>
+    <string name="EnterName">Введите ваше имя</string>
+    <string name="Email">Ваш адрес электронной почты</string>
+    <string name="Pic">Твоя фотография</string>
+    <string name="Login">АВТОРИЗОВАТЬСЯ</string>
+    <string name="TakePic">Нажмите на кнопку выше, чтобы сделать снимок</string>
+    <string name="Chat">Перейти в чат</string>
 </resources>
