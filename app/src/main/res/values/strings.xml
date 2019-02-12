@@ -3,7 +3,7 @@
     <string name="ButtonText">I\'m a button!</string>
     <string name="EditText"> Type email here </string>
     <string name="Switch"> Switch On/Off</string>
-    <string name="app_name">Lab 3</string>
+    <string name="app_name">Lab 4</string>
     <string name="Check">Check this out!</string>
     <string name="Widgets">Here are my widgets:</string>
     <string name="EnterEmail">Enter your email:</string>
@@ -16,4 +16,7 @@
     <string name="Login">LOGIN</string>
     <string name="TakePic">Click the button above to take a picture</string>
     <string name="Chat">Go to chat</string>
+    <string name="Send">Send</string>
+    <string name="Type">Type here</string>
+    <string name="Receive">Receive</string>
 </resources>

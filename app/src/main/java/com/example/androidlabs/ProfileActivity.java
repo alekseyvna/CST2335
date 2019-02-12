@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.view.View;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ public class ProfileActivity extends AppCompatActivity {
     EditText emailEdit;
     ImageButton imagebu;
     Intent intent;
+    Button imagechat;
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
@@ -41,6 +43,16 @@ public class ProfileActivity extends AppCompatActivity {
         imagebu.setOnClickListener((View v) -> {
             dispatchTakePictureIntent();
         });
+
+        imagechat = findViewById(R.id.chatbutton);
+        imagechat.setOnClickListener((View v) ->
+                {
+                    Intent intent = new Intent(this, ChatRoomActivity.class);
+
+                    startActivity(intent);
+                }
+        );
+
 
         Log.e(ACTIVITY_NAME, "In function:" + "onCreate");
     }
