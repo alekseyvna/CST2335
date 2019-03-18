@@ -3,10 +3,8 @@ package com.example.androidlabs;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.provider.ContactsContract;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -28,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         loginB = findViewById(R.id.login);
-        loginB.setOnClickListener((View v) ->
+        loginB.setOnClickListener(clicked ->
                 {
-                    Intent intent = new Intent(this, ProfileActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
                     intent.putExtra("ReserveName", emailEdit.getText().toString());
                     startActivity(intent);
                 }
@@ -43,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences.Editor editor = prefs.edit();
 
-        //save what was typed under the name "ReserveName"
+
         String userIn = emailEdit.getText().toString();
         editor.putString("ReserveName", userIn);
 
-        //write it to disk:
+
         editor.commit();
 
     }

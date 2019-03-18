@@ -19,6 +19,7 @@ public class ProfileActivity extends AppCompatActivity {
     ImageButton imagebu;
     Intent intent;
     Button imagechat;
+    Button toolbarpage;
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
@@ -44,6 +45,7 @@ public class ProfileActivity extends AppCompatActivity {
             dispatchTakePictureIntent();
         });
 
+
         imagechat = findViewById(R.id.chatbutton);
         imagechat.setOnClickListener((View v) ->
                 {
@@ -53,6 +55,15 @@ public class ProfileActivity extends AppCompatActivity {
                 }
         );
 
+
+        toolbarpage = findViewById(R.id.toolbarbutton);
+        toolbarpage.setOnClickListener(v ->
+                {
+                    Intent gotool = new Intent(ProfileActivity.this, TestToolbar.class);
+                    startActivity(gotool);
+                }
+
+                );
 
         Log.e(ACTIVITY_NAME, "In function:" + "onCreate");
     }
